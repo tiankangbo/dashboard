@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../001/.idea/001.iml" filepath="$PROJECT_DIR$/../001/.idea/001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../QiCrawlEgine/.idea/QiCrawlEgine.iml" filepath="$PROJECT_DIR$/../QiCrawlEgine/.idea/QiCrawlEgine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../进阶/arachnado-master/.idea/arachnado-master.iml" filepath="$PROJECT_DIR$/../进阶/arachnado-master/.idea/arachnado-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../flask001/.idea/flask001.iml" filepath="$PROJECT_DIR$/../flask001/.idea/flask001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../huxiu/.idea/huxiu.iml" filepath="$PROJECT_DIR$/../huxiu/.idea/huxiu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../py2/.idea/py2.iml" filepath="$PROJECT_DIR$/../py2/.idea/py2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../qiSpiderEgine/.idea/qiSpiderEgine.iml" filepath="$PROJECT_DIR$/../qiSpiderEgine/.idea/qiSpiderEgine.iml" />
+      <module fileurl="file://$USER_HOME$/scrapyd-master/.idea/scrapyd-master.iml" filepath="$USER_HOME$/scrapyd-master/.idea/scrapyd-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/tasklist.iml" filepath="$PROJECT_DIR$/.idea/tasklist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../testspiders-master/.idea/testspiders-master.iml" filepath="$PROJECT_DIR$/../testspiders-master/.idea/testspiders-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tornado/.idea/torando.iml" filepath="$PROJECT_DIR$/../tornado/.idea/torando.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tornado/.idea/tornado.iml" filepath="$PROJECT_DIR$/../tornado/.idea/tornado.iml" />
+    </modules>
+  </component>
+</project>

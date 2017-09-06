@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="jdk" jdkName="Python 2.7.12 (/usr/bin/python2.7)" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="spider" />
+    <orderEntry type="module" module-name="thriftDemo" />
+    <orderEntry type="module" module-name="delOldsql" />
+    <orderEntry type="module" module-name="net" />
+    <orderEntry type="module" module-name="py3" />
+    <orderEntry type="module" module-name="cnblogSpider" />
+    <orderEntry type="module" module-name="pyspider-master" />
+    <orderEntry type="module" module-name="etlpy-master" />
+    <orderEntry type="module" module-name="tutorial" />
+    <orderEntry type="module" module-name="py2" />
+    <orderEntry type="module" module-name="scrapyLearn" />
+    <orderEntry type="module" module-name="baihe" />
+    <orderEntry type="module" module-name="project_baihe" />
+    <orderEntry type="module" module-name="toutiaoSpider" />
+    <orderEntry type="module" module-name="huxiu" />
+    <orderEntry type="module" module-name="IPProxyPool-master" />
+    <orderEntry type="module" module-name="core-scrapy-master" />
+    <orderEntry type="module" module-name="QQZoneSpider-master" />
+    <orderEntry type="module" module-name="lagouZhaopin" />
+    <orderEntry type="module" module-name="scrapyd-master" />
+    <orderEntry type="module" module-name="project_baihe" />
+    <orderEntry type="module" module-name="Lagouzp" />
+    <orderEntry type="module" module-name="proxySpider_scrapy-master" />
+    <orderEntry type="module" module-name="scrapy-jsonrpc-master" />
+    <orderEntry type="module" module-name="scrapyd-master" />
+    <orderEntry type="module" module-name="qiCrawlEngine" />
+  </component>
+  <component name="TestRunnerService">
+    <option name="PROJECT_TEST_RUNNER" value="Unittests" />
+  </component>
+</module>

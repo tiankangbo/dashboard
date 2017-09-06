@@ -1,0 +1,41 @@
+$def with(tasks)
+$:render.header()
+
+        <div class="box">
+
+            <div class="box tasks">
+                <h2 class="box">待办事项</h2>
+                <ul>
+                    $for task in tasks:
+                        $if task.finished == 1:
+                            $ status = 'class="finished"'
+                        $else:
+                            $ status = ''
+                        <li $:status>
+                            $if task.finished == 0:
+                                $task.title
+                                &nbsp;
+                                <a href="/task/$task.id/finish?status=yes">完成</a>,
+                            $if task.finished == 1:
+                                <del>$task.title</del>
+                                &nbsp;
+                                <a href="/task/$task.id/finish?status=no">恢复</a>,
+                            <a href="/task/$task.id/edit">修改</a>,
+                            <a href="/task/$task.id/delete" onclick="return confirm('删除以后不能恢复的，确定？')">删除</a>
+                        </li>
+                </ul>
+            </div>
+
+            <div class="box post">
+                <h2>任务筹备</h2>
+                <form action="/task/new" method="post" id="post_new">
+                    <p><label>
+                        <input type="text" name="title" class="long_txt"/>
+                    </label></p>
+                    <p><input type="submit" class="submit" value="添加" /></p>
+                </form>
+            </div>
+
+        </div>
+
+$:render.foot()

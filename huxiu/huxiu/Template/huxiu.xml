@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<website_type>news</website_type>
+	<name>huxiu</name>
+	<domain>huxiu.com</domain>
+	<title>title</title>
+	<author>author</author>
+	<text>text</text>
+	<posttime>posttime</posttime>
+	<link>link</link>
+	<instime>instime</instime>
+</config>

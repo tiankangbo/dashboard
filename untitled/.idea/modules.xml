@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/桌面/IPProxyPool-master/.idea/IPProxyPool-master.iml" filepath="$USER_HOME$/桌面/IPProxyPool-master/.idea/IPProxyPool-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Lagouzp/.idea/Lagouzp.iml" filepath="$PROJECT_DIR$/../Lagouzp/.idea/Lagouzp.iml" />
+      <module fileurl="file://$USER_HOME$/桌面/QQZoneSpider-master/.idea/QQZoneSpider-master.iml" filepath="$USER_HOME$/桌面/QQZoneSpider-master/.idea/QQZoneSpider-master.iml" />
+      <module fileurl="file://$USER_HOME$/桌面/123/baihe/.idea/baihe.iml" filepath="$USER_HOME$/桌面/123/baihe/.idea/baihe.iml" />
+      <module fileurl="file://$USER_HOME$/cnblogs/cnblogSpider/.idea/cnblogSpider.iml" filepath="$USER_HOME$/cnblogs/cnblogSpider/.idea/cnblogSpider.iml" />
+      <module fileurl="file://$USER_HOME$/桌面/core-scrapy-master/.idea/core-scrapy-master.iml" filepath="$USER_HOME$/桌面/core-scrapy-master/.idea/core-scrapy-master.iml" />
+      <module fileurl="file:///dashboard/delOldsql/.idea/delOldsql.iml" filepath="/dashboard/delOldsql/.idea/delOldsql.iml" />
+      <module fileurl="file://$USER_HOME$/桌面/etlpy-master/.idea/etlpy-master.iml" filepath="$USER_HOME$/桌面/etlpy-master/.idea/etlpy-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../huxiu/.idea/huxiu.iml" filepath="$PROJECT_DIR$/../huxiu/.idea/huxiu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../lagouZhaopin/.idea/lagouZhaopin.iml" filepath="$PROJECT_DIR$/../lagouZhaopin/.idea/lagouZhaopin.iml" />
+      <module fileurl="file:///dashboard/net/.idea/net.iml" filepath="/dashboard/net/.idea/net.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../project_baihe/.idea/project_baihe.iml" filepath="$PROJECT_DIR$/../project_baihe/.idea/project_baihe.iml" />
+      <module fileurl="file://$USER_HOME$/桌面/123/project_baihe/.idea/project_baihe.iml" filepath="$USER_HOME$/桌面/123/project_baihe/.idea/project_baihe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../proxySpider_scrapy-master/.idea/proxySpider_scrapy-master.iml" filepath="$PROJECT_DIR$/../proxySpider_scrapy-master/.idea/proxySpider_scrapy-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../py2/.idea/py2.iml" filepath="$PROJECT_DIR$/../py2/.idea/py2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../py3/.idea/py3.iml" filepath="$PROJECT_DIR$/../py3/.idea/py3.iml" />
+      <module fileurl="file://$USER_HOME$/桌面/pyspider-master/.idea/pyspider-master.iml" filepath="$USER_HOME$/桌面/pyspider-master/.idea/pyspider-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../qiCrawlEngine/.idea/qiCrawlEngine.iml" filepath="$PROJECT_DIR$/../qiCrawlEngine/.idea/qiCrawlEngine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../scrapy-jsonrpc-master/.idea/scrapy-jsonrpc-master.iml" filepath="$PROJECT_DIR$/../scrapy-jsonrpc-master/.idea/scrapy-jsonrpc-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../scrapyLearn/.idea/scrapyLearn.iml" filepath="$PROJECT_DIR$/../scrapyLearn/.idea/scrapyLearn.iml" />
+      <module fileurl="file://$USER_HOME$/scrapyd-master/.idea/scrapyd-master.iml" filepath="$USER_HOME$/scrapyd-master/.idea/scrapyd-master.iml" />
+      <module fileurl="file://$USER_HOME$/桌面/scrapyd-master/.idea/scrapyd-master.iml" filepath="$USER_HOME$/桌面/scrapyd-master/.idea/scrapyd-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spider/.idea/spider.iml" filepath="$PROJECT_DIR$/../spider/.idea/spider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../thriftDemo/.idea/thriftDemo.iml" filepath="$PROJECT_DIR$/../thriftDemo/.idea/thriftDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../toutiaoSpider/.idea/toutiaoSpider.iml" filepath="$PROJECT_DIR$/../toutiaoSpider/.idea/toutiaoSpider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tutorial/.idea/tutorial.iml" filepath="$PROJECT_DIR$/../tutorial/.idea/tutorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/untitled.iml" filepath="$PROJECT_DIR$/.idea/untitled.iml" />
+    </modules>
+  </component>
+</project>

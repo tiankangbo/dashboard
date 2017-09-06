@@ -1,0 +1,15 @@
+$def with(task)
+$:render.header()
+
+        <div class="box post">
+            <h2>修改</h2>
+            <form action="?" method="post">
+                <p><label>
+                    <input type="text" name="title" class="long_txt" value="task.title"/>
+                </label></p>
+                <p> <input type="submit" class="submit" value="提交" /></p>
+            </form>
+        </div>
+
+
+$:render.foot()

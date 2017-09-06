@@ -1,0 +1,12 @@
+{
+  "baseurl": "http://192.168.1.121:8080/client/api?",
+  "apikey": "GB4Mtvw6bRo94WWciMaHcTOoPmYwfSipUqqox1UU8wmtU-cL89YpydFDx38UYWaEi75wylNLGBp0vKXepKPFrw",
+  "secretkey": "SkSJ0h1DuukZn1bTR5AjSmoSVcCucCOA9FatjMCuFzeJaPiwBi1bLkTdZOlDbdAI2Yv4Rt4TQbXMzgnVFGr_xQ",
+  "command_listVM": "listVirtualMachines",
+  "command_listUser": "listUsers",
+  "command_deployVM": "deployVirtualMachine",
+  "command_listVol": "listVolumes",
+  "serviceOfferingId": "1",
+  "templateId": "88385348-3ee5-11e7-91f7-3c396964b86e",
+  "zoneId": "1"
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="jdk" jdkName="Python 2.7.12 (/usr/bin/python2.7)" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="qiSpiderEgine" />
+    <orderEntry type="module" module-name="torando" />
+    <orderEntry type="module" module-name="huxiu" />
+    <orderEntry type="module" module-name="scrapyd-master" />
+    <orderEntry type="module" module-name="testspiders-master" />
+    <orderEntry type="module" module-name="001" />
+    <orderEntry type="module" module-name="torando" />
+    <orderEntry type="module" module-name="QiCrawlEgine" />
+    <orderEntry type="module" module-name="arachnado-master" />
+    <orderEntry type="module" module-name="py2" />
+    <orderEntry type="module" module-name="torando" />
+    <orderEntry type="module" module-name="tornado" />
+    <orderEntry type="module" module-name="flask001" />
+  </component>
+  <component name="TestRunnerService">
+    <option name="PROJECT_TEST_RUNNER" value="Unittests" />
+  </component>
+</module>

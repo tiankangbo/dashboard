@@ -1,0 +1,10 @@
+获取某个实例信息 QiInstanceInfo(procotol=49, hostInfo=QiHostInfo(macaddr='', name='', resInfo=QiHostResInfo(threads=0, freememory=0, cpus=0, sockets=0, mhz=0, memory=0, cores=0, model='', runningVMs=0, nodes=0), ip='', maxvms=-10336, clusterid='', createtime='', state='', primaryPoolState='', id=0, secondaryPoolState=''), passwd='', baseInfo=QiInstanceBaseInfo(diskMode=-10496, i32erfaceInfo=[], isoid='', cpuCores=2, diskInfo=[], memorySize=1024, createtime='33397792', displayProcotol=-18227, imgid='', diskSize=1500601537, cpuThreads=2, cpuType='core2duo', cpuSockets=1, id='0839b2ac-c25a-46d6-8a99-558eb4d3261a', name='hello'), state=5, port2=32767, port1=-10368)
+
+模板列表 --  [QiTemplateInfo(username='xiaoming', name='test', fatherid='', ispublic=0, createtime='1501466896', state='', storageid='', OStype='windows', OSversion='win7', type='1', id='win7.iso')]
+
+开源云计算平台CloudStack实战	01092765	0	续借	2017-05-31 08:17:39	2017-06-30
+CloudStack技术指南	01088161	0	续借	2017-05-31 08:17:40	2017-06-30
+嵌入式Qt开发项目教程	01041275	0	续借	2017-06-07 08:23:51	2017-07-07
+Python数据分析	01095803	0	续借	2017-06-07 08:23:52	2017-07-07
+Qt 5开发实战	01095020	0	续借	2017-06-23 08:23:46	2017-07-23
+

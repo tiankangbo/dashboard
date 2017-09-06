@@ -1,0 +1,8 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/
+Jpider/__pycache__/
+spiders/__pycache__/
+spiders/migrations/
+templates/
+*.log
+*/*.conf
