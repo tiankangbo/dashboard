@@ -1,0 +1,12 @@
+{
+  "SMTP_server":"smtp.163.com",
+  "sender_address":"kangbotian@163.com",
+  "sender_name":"kangbotian",
+  "sender_key":"kangbo163",
+  "user_address":"daemon@qi-tech.com.cn",
+  "user_nickname":"daemon@qi-tech.com.cn",
+  "cpu_stat1":"waring : CPU > 90%, Please log on dashboard to check => ",
+  "cpu_stat2":"waring : CPU temp > 75 ℃, Please log on dashboard to check => ",
+  "mem_out":"waring : memory used > 85%, Please log on dashboard to check => ",
+  "disk_out":"waring : disk used > 85%, Please log on dashboard to check => "
+}

@@ -1,0 +1,4 @@
+  File "clear_Sql.py", line 30
+    iter_now = datetime.now()
+                            ^
+IndentationError: unindent does not match any outer indentation level

@@ -1,0 +1,76 @@
+README
+1、软件名称
+   仪表盘监控后台系统
+
+2、作者版权与授权
+   田康博
+
+3、应用范围
+   可用于服务器集群或单点的监控，主要监控项目:CPU, Hard disk, 温度，内存，swap, 流量, IO等    
+
+4、使用方法等
+   需要在系统根目录下新建/dashboard/文件夹，并将两个工程delOldsql，net放入该文件夹。
+   在控制节点或者主节点上，需要启动 delOldsql 和 net 两个项目。在非主节点上只需要启动 net 项目即可。
+   delOldsql功能：删除n天前的数据库表的旧数据，删除时间在config文件里，可控。计量单位是天。启动命令:  # nohup python clear_Sql.py &>/dev/null &
+   net功能：启动全部监控项目，以及清理内存功能。各项监控数据写入主节点数据库，写入时间在对应的config文件里可控。计量单位秒。启动命令:# nohup python start_main.py &>/dev/null &  
+   必须打开dashboard数据库的远程访问权限
+   config文件：配置数据库信息以及时间控制信息
+   config文件里面的一些标签解读：
+   <server>127.0.0.1</server>主控服务器的ip，也是mysql服务所在的ip地址。
+   <time>20</time>监控数据写入数据库的间隔时间，单位秒(s),注意，在delOldsql工程里的config文件里的时间单位是天(day)。
+   <path1>/home</path1>监控磁盘1
+   <path2>/root</path2>监控磁盘2
+
+   
+5，需要依赖包
+    apt-get install sysstat python-dev python-pip libmysqld-dev python-mysqldb python-psutil lm-sensors
+
+
+
+6、项目的全目录
+
+root@ubuntu:~# tree /dashboard/
+/dashboard/
+├── delOldsql
+│?? ├── clear_Sql.py
+│?? ├── config
+│?? ├── read_xml.py
+│?? └── read_xml.pyc
+└── net
+    ├── config
+    ├── __init__.py
+    ├── __init__.pyc
+    ├── main.py
+    ├── message_info.py
+    ├── message_info.pyc
+    ├── nodes
+    │?? ├── __init__.py
+    │?? ├── __init__.pyc
+    │?? ├── node_info.py
+    │?? └── node_info.pyc
+    ├── nohup.out
+    ├── offlinetidt
+    │?? ├── disk_info.py
+    │?? ├── disk_info.pyc
+    │?? ├── __init__.py
+    │?? ├── __init__.pyc
+    │?? ├── Mem_info.py
+    │?? ├── Mem_info.pyc
+    │?? ├── swap_info.py
+    │?? └── swap_info.pyc
+    ├── README
+    ├── read_xml.py
+    ├── read_xml.pyc
+    ├── realtidt
+    │?? ├── cpu_stat.py
+    │?? ├── cpu_stat.pyc
+    │?? ├── disk_io_stat.py
+    │?? ├── disk_io_stat.pyc
+    │?? ├── __init__.py
+    │?? ├── __init__.pyc
+    │?? ├── net_info.py
+    │?? └── net_info.pyc
+    └── start_main.py
+
+5 directories, 35 files
+

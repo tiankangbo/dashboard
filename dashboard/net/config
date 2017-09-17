@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <server>127.0.0.1</server>
+    <config>
+        <port>3306</port>
+        <user>root</user>
+        <pwd>pa$$w0rd</pwd>
+		<db>dashboard</db>
+        <time>20</time>
+        <time1>40</time1>
+        <path1>/home</path1>
+        <path2>/root</path2>
+    </config>
+</config>

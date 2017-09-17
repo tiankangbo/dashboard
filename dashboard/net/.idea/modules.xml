@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/PycharmProjects/cloudstack0/.idea/cloudstack0.iml" filepath="$USER_HOME$/PycharmProjects/cloudstack0/.idea/cloudstack0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../delOldsql/.idea/delOldsql.iml" filepath="$PROJECT_DIR$/../delOldsql/.idea/delOldsql.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/mysite/.idea/mysite.iml" filepath="$USER_HOME$/PycharmProjects/mysite/.idea/mysite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/net.iml" filepath="$PROJECT_DIR$/.idea/net.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/py2/.idea/py2.iml" filepath="$USER_HOME$/PycharmProjects/py2/.idea/py2.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/py3/.idea/py3.iml" filepath="$USER_HOME$/PycharmProjects/py3/.idea/py3.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/web/.idea/web.iml" filepath="$USER_HOME$/PycharmProjects/web/.idea/web.iml" />
+    </modules>
+  </component>
+</project>
