@@ -15,8 +15,10 @@ from thrift.transport import TSocket
 from thrift.transport import THttpClient
 from thrift.protocol import TBinaryProtocol
 
-from qicloudbaseAPI import QicloudBaseApiServer
-from qicloudbaseAPI.ttypes import *
+# from qicloudbaseAPI import QicloudBaseApiServer
+# from qicloudbaseAPI.ttypes import *
+import QicloudBaseApiServer
+from ttypes import *
 
 if len(sys.argv) <= 1 or sys.argv[1] == '--help':
   print ''
@@ -57,7 +59,7 @@ if len(sys.argv) <= 1 or sys.argv[1] == '--help':
 
 pp = pprint.PrettyPrinter(indent = 2)
 host = 'localhost'
-port = 9090
+port = 9998
 uri = ''
 framed = False
 http = False

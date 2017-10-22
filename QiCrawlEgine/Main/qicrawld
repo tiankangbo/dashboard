@@ -1,0 +1,93 @@
+#!/bin/bash
+#nginx Start script for the Nginx HTTP Server
+# chkconfig: – 99 50
+#虽然前面带#号，是注释，但要用chkconfig命令注册开机启动服务器的话，该句必不可少，格式也不能错！# chkconfig: – 99 50 冒号的3个参数的含义：
+（第一位（X）：是指定该脚本在哪个系统启动级别下运行（关于linux启动级别将在别的博文中介绍），比如你需要在3，4，5上运行，那么第二位就设置成345,我这里用的是”-”,代表在2,3,4,5上都运行。
+第二位（Y）：系统启动时，服务启动顺序。（需要注意的是，有的程序依赖与别的程序的话，启动顺序就要注意了，比如A程序的启动依赖于B程序的启动，那么A程序的这个值一定要比B程序大。）
+第三位（Z）：系统终止时，服务终止顺序。）
+# description: Nginx is a high-performance web and proxy server.
+#该句也必不可少，理由同上，你程序的描述和间接，而非本启动脚本。
+#设置变量
+nginxd=/usr/local/nginx/sbin/nginx
+nginx_config=/usr/local/nginx/conf/nginx.conf
+nginx_pid=/usr/local/nginx/logs/nginx.pid
+#保存退出状态的变量，初始值为0（在linux一般0表示成功，表示OK，非0表示异常，不OK）
+RETYAL=0
+prog="nginx"
+#程序的启动参数，这个很重要哦，那个–dameon参数是必不可少的，-4表示只在ipv4上监听，如果你要加更多参数，你需要参照/usr/bin/rsyncd –daemon –help后的帮助信息
+OPTIONS="--daemon -4"
+#Source function library.在当前shell中运行的函数库文件（在functions中定义了很多函数，在这里可以调用，系统提供的函数文件，这里面实现了很多函数和环境变量，比如start的时候，红色的字显示OK就是这个文件的功劳。）
+. /etc/rc.d/init.d/functions
+#Source network configuration.
+. /etc/sysconfig/network
+#Check that networking is up.
+[ ${NETWORKING} = "no" ] && exit 0
+[ -x $nginxd ] || exit 0
+#Start nginx daemons function.定义函数
+start() {
+#判断程序是否存在，否则异常退出。
+[ -x $nginxd ] || \
+         { echo “FATAL: No such programme”;exit 4; }
+#判断配置文件是否存在，否则异常退出。
+[ -f $nginx_config ] || \
+         { echo “FATAL:Config file does not exist”;exit 6; }
+#判断程序是否运行，否则异常退出。
+if [ -e $nginx_pid ];then
+         echo "nginx already running...."
+         exit 1
+fi
+#显示信息，依赖于. /etc/rc.d/init.d/functions
+         echo -n $"Starting $prog:"
+#调用functions里的daemon函数来启动nginx(daemon()函数主要用于希望脱离控制台，以守护进程形式在后台运行的程序。)
+         daemon $nginxd -c ${nginx_config} $OPTIONS
+#把daemon函数调用的结果保存到RETVAL里
+         RETVAL=$?
+         echo
+#判断RETVALR值，如果是0执行成功，则生成锁文件（锁文件主要用来判断程序是否运行）
+         [ $RETVAL = 0 ] && touch /var/lock/subsys/nginx
+#终止函数，并返回$RETVAL的值（通常用于函数的结束, 本身这段代码也是个函数，所以我们也要返回，返回RETVAL的值）
+         return $RETVAL
+}
+#Stop nginx daemons functions.
+stop() {
+         echo -n $"Stoping $prog:"
+#killproc也在. /etc/rc.d/init.d/functions里面定义
+         killproc $nginxd
+         RETVAL=$?
+         echo
+         [ $RETVAL = 0 ] && rm -f /var/lock/subsys/nginx /usr/local/nginx/logs/nginx.pid
+}
+reload() {
+         echo -n $"Reloading $prog:"
+         #kill -HUP `cat ${nginx_pid}`
+         killproc $nginxd -HUP
+         RETVAL=$?
+         echo
+}
+#See how we were called.
+case "$1" in
+start)
+         start
+         ;;
+stop)
+         stop
+         ;;
+reload)
+         reload
+         ;;
+restart)
+         stop
+         start
+         ;;
+#status在. /etc/rc.d/init.d/functions里有定义
+status)
+         status $prog
+         RETVAL=$?
+         ;;
+#输入其他内容提示以下内容
+*)
+         echo $"Usage:$prog{start|stop|restart|reload|status|help}"
+         exit 1
+esac
+exit $RETVAL
+#################################################################

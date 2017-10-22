@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/QiCrawlEgine.iml" filepath="$PROJECT_DIR$/.idea/QiCrawlEgine.iml" />
+      <module fileurl="file://$USER_HOME$/桌面/Scrapy_Redis_Bloomfilter-master/.idea/Scrapy_Redis_Bloomfilter-master.iml" filepath="$USER_HOME$/桌面/Scrapy_Redis_Bloomfilter-master/.idea/Scrapy_Redis_Bloomfilter-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../proxy_pool-master/.idea/proxy_pool-master.iml" filepath="$PROJECT_DIR$/../proxy_pool-master/.idea/proxy_pool-master.iml" />
+      <module fileurl="file://$USER_HOME$/桌面/thriftDemo/.idea/thriftDemo.iml" filepath="$USER_HOME$/桌面/thriftDemo/.idea/thriftDemo.iml" />
+      <module fileurl="file://$USER_HOME$/桌面/zhilian-master/.idea/zhilian-master.iml" filepath="$USER_HOME$/桌面/zhilian-master/.idea/zhilian-master.iml" />
     </modules>
   </component>
 </project>

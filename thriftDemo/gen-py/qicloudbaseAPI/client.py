@@ -198,8 +198,8 @@ if __name__ == '__main__':
     # print "关机 -- ", a.shutdown_instance('09c435ac-cc37-4cf1-8044-5f7d92c294ac')
     # time.sleep(3)
     # print "获取某个实例信息 -- ", a.work_for_instanceInfo('09c435ac-cc37-4cf1-8044-5f7d92c294ac')
-    print "移除ISO", a.for_delISO('09c435ac-cc37-4cf1-8044-5f7d92c294ac')
-    print "获取某个实例信息 -- ", a.work_for_instanceInfo('09c435ac-cc37-4cf1-8044-5f7d92c294ac')
+    # print "移除ISO", a.for_delISO('09c435ac-cc37-4cf1-8044-5f7d92c294ac')
+    # print "获取某个实例信息 -- ", a.work_for_instanceInfo('09c435ac-cc37-4cf1-8044-5f7d92c294ac')
     # print "实例列表", a.work_for_listInstance()
 
     '''关闭链接'''
